@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css/nav_style.css">
     <link rel="stylesheet" href="css/menu.css">
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <?php include('navigation.html')?>
@@ -94,7 +92,7 @@
       <?php include("footer.html")?>
 
     </div>
-
-
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
