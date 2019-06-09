@@ -1,11 +1,11 @@
 nav {
   top: 0;
   height: 72px;
-  width: 800px;
+  width: 50%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 172px, 172px, repeat(4, 95px)
-  grid-gap:16px;
+  grid-template-columns: 2fr 2fr repeat(4, 1fr);
+  grid-gap: 16px;
 }
 
 nav a {
@@ -48,6 +48,7 @@ a.nav_links {
   text-decoration: none;
   text-align: center;
   width: 96px;
+  justify-self: flex-end;
 }
 
 .nav_links:hover {
