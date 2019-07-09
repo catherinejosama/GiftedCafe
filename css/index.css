@@ -8,9 +8,10 @@ html, body {
 
 #top_bg {
   background-image: url("../img/360bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: 99%;
+  background-position-x: 0%;
+  background-position-y: auto;
+  background-repeat: repeat-x;
   height: 100vh;
 }
 
